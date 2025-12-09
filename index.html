@@ -6,14 +6,90 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Heading -->
     <h1>Mohand Aly</h1>
+    <!-- description -->
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quam amet
-      quo quis explicabo facere labore quaerat magnam excepturi. Dolore tempore
-      quasi sed voluptatibus unde, laboriosam reprehenderit? Deleniti, modi sed?
+      Frontend developer I build clean interfaces. I focus on fast performance
+      and simple user flow. I solve problems with clear structure.
     </p>
-    <!--  -->
-    <a href="" target="" ></a>
 
+    <!-- Links -->
+    <a href="https://github.com/mohanadalyahmed/NTI" target="_blank"><img src="git.png" alt="github"></a>
+
+    <ul>
+      <li>a</li>
+      <li>b
+        <ol>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+          <ul>
+            <li>list</li>
+            <li>list</li>
+          </ul>
+          <li>D</li>
+          <li>F</li>
+        </ol>
+      </li>
+      <li>c</li>
+    </ul>
+    <table border="3">
+      <thead>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>mohand</td>
+        <td rowspan="2">21</td>
+      </tr>
+      <tr>
+        <td>
+          omar
+        </td>
+      </tr>
+      <tr>
+        <td>aly</td>
+        <td>22</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>total</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+    <form action="" method="get" >
+      
+      <label for="username">name</label>
+      <input type="text" placeholder="username" name="username" required>
+      <br>
+      <label for="password">password</label>
+      <input type="password" placeholder="password" name="password"required>
+      <br>
+      <label for="email">email</label>
+      <input type="email" placeholder="email" name="email" required>
+      <br>
+      <input type="submit" value="Log in">
+      <br>
+
+      <input type="radio" name="gender" value="male">
+      <label for="male">male</label>
+      <input type="radio" name="gender" value="female">
+      <label for="female">female</label>
+      <br>
+      <label for="city">Choose a city:</label>
+      <select name="city" id="city">
+        <option>--please choose an option--</option>
+        <option>Giza</option>
+        <option>Cairo</option>
+      </select>
+    </form>
   </body>
 </html>
